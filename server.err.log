@@ -223,3 +223,30 @@
 127.0.0.1 - - [13/May/2026 22:08:05] "GET /styles.css HTTP/1.1" 200 -
 127.0.0.1 - - [13/May/2026 22:08:44] "GET /index.html HTTP/1.1" 304 -
 127.0.0.1 - - [13/May/2026 22:08:44] "GET /styles.css HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2026 22:17:03] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 22:17:28] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 22:17:28] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 22:17:49] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2026 22:17:49] "GET /styles.css HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2026 22:18:41] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 22:18:41] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 22:18:41] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 22:18:41] "GET /script.js HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 22:18:41] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 22:18:41] "GET /script.js HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 22:18:41] code 404, message File not found
+127.0.0.1 - - [13/May/2026 22:18:41] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [13/May/2026 22:25:47] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 22:26:37] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 22:26:37] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 22:26:37] "GET /script.js HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 22:26:38] code 404, message File not found
+127.0.0.1 - - [13/May/2026 22:26:38] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [13/May/2026 22:31:33] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 22:36:33] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 22:36:57] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 22:36:57] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 22:43:01] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 22:43:30] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2026 22:43:30] "GET /script.js HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2026 22:43:30] "GET /styles.css HTTP/1.1" 200 -

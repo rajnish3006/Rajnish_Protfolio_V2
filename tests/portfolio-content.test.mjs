@@ -37,6 +37,7 @@ const requiredText = [
   "RPA Challenge_Using_UiPath_Re-Framework",
   "BotFarmController",
   "PAD Selector Assistant",
+  "Advanced Prompt Engineering",
   "Finance, retail, and HR domain exposure",
   "UiPath Advanced RPA Developer",
   "Emerging Extraordinaire",
@@ -80,7 +81,10 @@ assert.doesNotMatch(html, /class="domain-strip"|class="cta-row"/, "domain and CT
 assert.match(css, /\.hero-full\s*\{[\s\S]*?grid-column:\s*1\s*\/\s*-1;/, "domain note and buttons should span the full hero width");
 assert.match(css, /\.hero-note\s*\{[\s\S]*?max-width:\s*none;/, "domain note should use full available width");
 assert.match(css, /\.hero-action-strip\s*\{[\s\S]*?display:\s*flex;[\s\S]*?flex-wrap:\s*nowrap;/, "merged hero buttons should stay in one line on desktop");
-assert.match(css, /\.hero-action-strip\s*>\s*\*\s*\{[\s\S]*?flex:\s*1\s+1\s+0;/, "merged hero buttons should distribute across the full row");
+assert.match(html, /<span class="domain-chip">Current HR domain<\/span>\s*<span class="action-separator" aria-hidden="true"><\/span>\s*<a class="btn btn-primary"/, "hero action strip should separate domain chips from action buttons");
+assert.match(css, /\.hero-action-strip\s*>\s*:not\(\.action-separator\)\s*\{[\s\S]*?flex:\s*1\s+1\s+0;/, "merged hero buttons should distribute across the full row without stretching the separator");
+assert.match(css, /\.action-separator\s*\{[\s\S]*?flex:\s*0\s+0\s+1px;[\s\S]*?background:\s*linear-gradient/, "hero action strip should include a glass separator between chip and action groups");
+assert.match(css, /\.btn,\s*[\s\S]*?\.domain-chip,\s*[\s\S]*?\.theme-toggle,\s*[\s\S]*?\.menu-toggle\s*\{[\s\S]*?backdrop-filter:\s*blur\(16px\);/, "button-like elements should share a glass treatment");
 assert.match(css, /\.hero-full\.reveal\s*\{[\s\S]*?opacity:\s*1;[\s\S]*?transform:\s*none;/, "full-width hero note should remain visible in the top viewport");
 assert.match(html, /<div class="contact-strip" aria-label="Quick contact details">[\s\S]*href="tel:\+919279632193"[\s\S]*href="mailto:Rajnishkumar94702@gmail\.com"[\s\S]*href="https:\/\/credentials\.uipath\.com\/af5474d0-1b3d-4cfc-aa80-63c660805308"/, "contact box should preserve clickable phone, email, and certification links");
 assert.match(css, /\.contact-strip\s*\{[\s\S]*?width:\s*fit-content;[\s\S]*?margin:\s*14px\s+auto\s+0;[\s\S]*?justify-content:\s*center;[\s\S]*?border:\s*1px\s+solid/, "contact details should be centered in a designer box");
@@ -88,15 +92,23 @@ assert.match(css, /\.contact-strip\s+a\s*\{[\s\S]*?display:\s*inline-flex;[\s\S]
 assert.doesNotMatch(html, /<div class="automation-core"[^>]*>\s*-/, "3D core should not render a stray dash between hero intro and platform labels");
 assert.match(html, /<div class="automation-core"[^>]*>\s*<span><\/span>\s*<span><\/span>\s*<span><\/span>\s*<\/div>/, "3D core should keep three decorative layers");
 assert.match(css, /\.hero-full\s*\{[\s\S]*?margin-top:\s*12px;/, "full-width domain note should have a visible line break after the hero intro row");
-assert.match(css, /\.card-impact\s*\{[\s\S]*?right:\s*28%;[\s\S]*?top:\s*0;/, "Impact floating card should sit away from Blue Prism");
+assert.match(css, /\.card-impact\s*\{[\s\S]*?right:\s*28%;[\s\S]*?top:\s*8%;/, "Impact floating card should sit below the top ribbon and away from Blue Prism");
 assert.match(css, /\.card-blueprism\s*\{[\s\S]*?right:\s*0;[\s\S]*?top:\s*26%;/, "Blue Prism floating card should sit lower to avoid overlap");
 assert.match(css, /\.hero-copy,\s*[\s\S]*?\.hero-full,\s*[\s\S]*?\.hero-scene\s*\{[\s\S]*?min-width:\s*0;/, "hero grid children should not create horizontal overflow");
 assert.match(css, /@media \(max-width:\s*760px\)\s*\{[\s\S]*?\.hero\s*\{[\s\S]*?grid-template-columns:\s*1fr;[\s\S]*?padding-top:\s*112px;/, "mobile hero should use one compact column");
 assert.match(css, /@media \(max-width:\s*760px\)\s*\{[\s\S]*?h1\s*\{[\s\S]*?font-size:\s*clamp\(32px,\s*10vw,\s*46px\);[\s\S]*?overflow-wrap:\s*anywhere;/, "mobile headline should scale down and wrap safely");
 assert.match(css, /@media \(max-width:\s*760px\)\s*\{[\s\S]*?\.eyebrow\s*\{[\s\S]*?font-size:\s*10px;[\s\S]*?overflow-wrap:\s*anywhere;/, "mobile eyebrow should wrap safely");
 assert.match(css, /@media \(max-width:\s*760px\)\s*\{[\s\S]*?\.hero-scene\s*\{[\s\S]*?min-height:\s*390px;/, "mobile 3D scene should be compact");
-assert.match(css, /@media \(max-width:\s*760px\)\s*\{[\s\S]*?\.hero-action-strip\s*>\s*\*\s*\{[\s\S]*?flex:\s*1\s+1\s+calc\(50%\s*-\s*8px\);/, "mobile action strip should use a compact two-column layout");
-assert.match(css, /@media \(max-width:\s*540px\)\s*\{[\s\S]*?\.hero-action-strip\s*>\s*\*\s*\{[\s\S]*?flex-basis:\s*100%;/, "very small screens should stack action buttons safely");
+assert.match(css, /@media \(max-width:\s*760px\)\s*\{[\s\S]*?\.hero-action-strip\s*>\s*:not\(\.action-separator\)\s*\{[\s\S]*?flex:\s*1\s+1\s+calc\(50%\s*-\s*8px\);/, "mobile action strip should use a compact two-column layout");
+assert.match(css, /@media \(max-width:\s*760px\)\s*\{[\s\S]*?\.action-separator\s*\{[\s\S]*?flex-basis:\s*100%;[\s\S]*?height:\s*1px;/, "mobile separator should become a horizontal divider");
+assert.match(css, /@media \(max-width:\s*540px\)\s*\{[\s\S]*?\.hero-action-strip\s*>\s*:not\(\.action-separator\)\s*\{[\s\S]*?flex-basis:\s*100%;/, "very small screens should stack action buttons safely");
+assert.match(css, /\.section-head\s*\{[\s\S]*?align-items:\s*center;/, "section labels should be vertically centered against their heading rows");
+assert.match(css, /\.section-head\s+\.eyebrow\s*\{[\s\S]*?align-self:\s*center;[\s\S]*?margin:\s*0;/, "section eyebrow labels should sit centered on the left side of each section heading row");
+assert.match(css, /\.section-head\s+\.eyebrow\s*\{[\s\S]*?border:\s*1px\s+solid[\s\S]*?background:\s*linear-gradient\(90deg,[\s\S]*?backdrop-filter:\s*blur\(14px\);/, "section labels should use a fading glass treatment");
+assert.match(css, /\.section-head\s+\.eyebrow::after\s*\{[\s\S]*?background:\s*linear-gradient\(90deg,[\s\S]*?transparent\);/, "section label glass should fade out toward the heading");
+assert.match(css, /\.hero-lead\s*\{[\s\S]*?text-align:\s*justify;[\s\S]*?border:\s*1px\s+solid[\s\S]*?backdrop-filter:\s*blur\(16px\);/, "hero intro should use justified text inside a glass panel");
+assert.match(css, /@media \(max-width:\s*760px\)\s*\{[\s\S]*?\.hero-lead\s*\{[\s\S]*?text-align:\s*left;/, "mobile hero intro should remain readable inside the glass panel");
+assert.match(css, /\.timeline-time\s*\{[\s\S]*?display:\s*flex;[\s\S]*?align-items:\s*center;[\s\S]*?justify-content:\s*center;[\s\S]*?text-align:\s*center;/, "experience dates should be centered in the left timeline column");
 
 const buttonLikeLinks = [...html.matchAll(/<a\b[^>]*class="[^"]*\bbtn\b[^"]*"[^>]*href="([^"]+)"/g)].map((match) => match[1]);
 assert.ok(buttonLikeLinks.length >= 4, "there should be at least four clickable button-style links");
