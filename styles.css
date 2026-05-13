@@ -259,6 +259,12 @@ section {
   padding-bottom: 8px;
 }
 
+.hero-copy,
+.hero-full,
+.hero-scene {
+  min-width: 0;
+}
+
 .eyebrow {
   margin: 0 0 14px;
   color: var(--teal);
@@ -947,19 +953,72 @@ h3 {
   }
 
   .hero {
-    padding-top: 132px;
+    grid-template-columns: 1fr;
+    row-gap: 18px;
+    min-height: auto;
+    padding-top: 112px;
+  }
+
+  .eyebrow {
+    font-size: 10px;
+    line-height: 1.7;
+    letter-spacing: 0.1em;
+    overflow-wrap: anywhere;
+  }
+
+  h1 {
+    max-width: 100%;
+    font-size: clamp(32px, 10vw, 46px);
+    line-height: 0.98;
+    letter-spacing: -0.03em;
+    overflow-wrap: anywhere;
+  }
+
+  .hero-lead {
+    margin-top: 18px;
+    font-size: 16px;
+  }
+
+  .hero-note {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .hero-full {
+    margin-top: 0;
   }
 
   .hero-action-strip {
     flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 14px;
   }
 
   .hero-action-strip > * {
     flex: 1 1 calc(50% - 8px);
   }
 
+  .hero-action-strip .btn,
+  .domain-chip {
+    min-height: 38px;
+    padding: 0 10px;
+    font-size: 12px;
+  }
+
+  .contact-strip {
+    width: 100%;
+    border-radius: 18px;
+    padding: 8px;
+  }
+
+  .contact-strip a {
+    flex: 1 1 auto;
+    min-width: max-content;
+  }
+
   .hero-scene {
-    min-height: 640px;
+    order: 0;
+    min-height: 390px;
   }
 
   .metrics-grid {
@@ -967,22 +1026,32 @@ h3 {
   }
 
   .float-card {
-    width: 144px;
+    width: 132px;
+    min-height: 78px;
+    padding: 11px;
+  }
+
+  .float-card strong {
+    font-size: 13px;
+  }
+
+  .float-card span {
+    font-size: 11px;
   }
 
   .card-uipath {
-    left: 0;
-    top: 8%;
+    left: 2%;
+    top: 12%;
   }
 
   .card-blueprism {
     right: 0;
-    top: 18%;
+    top: 30%;
   }
 
   .card-power {
     left: 0;
-    bottom: 18%;
+    bottom: 12%;
   }
 
   .card-api {
@@ -991,8 +1060,13 @@ h3 {
   }
 
   .card-impact {
-    left: 30%;
+    left: auto;
+    right: 8%;
     top: 0;
+  }
+
+  .automation-core {
+    width: min(188px, 52vw);
   }
 }
 
@@ -1007,15 +1081,23 @@ h3 {
   }
 
   .hero-scene {
-    min-height: 600px;
+    min-height: 430px;
   }
 
   .hero-action-strip > * {
     flex-basis: 100%;
   }
 
+  .contact-strip {
+    align-items: stretch;
+  }
+
+  .contact-strip a {
+    flex-basis: 100%;
+  }
+
   .automation-core {
-    width: min(258px, 70vw);
+    width: min(210px, 58vw);
   }
 }
 

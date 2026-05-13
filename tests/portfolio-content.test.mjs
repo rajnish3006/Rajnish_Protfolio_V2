@@ -23,6 +23,7 @@ const requiredText = [
   "Process Automation Specialist",
   "Building RPA bots that move faster, fail safer, and scale cleaner.",
   "I am Rajnish Kumar, an RPA Developer with 4+ years of experience designing, developing, deploying, and stabilizing enterprise automation solutions across UiPath, Blue Prism, Power Automate Desktop, and Power Automate Cloud.",
+  "Proof of automation impact across speed, stability, cost, and accuracy.",
   "UiPath",
   "Blue Prism",
   "Power Automate",
@@ -68,6 +69,7 @@ assert.ok(!html.includes('id="profileModal"'), "portrait modal should be removed
 assert.ok(!script.includes("profileModal"), "portrait modal JavaScript should be removed");
 assert.doesNotMatch(html, /\b(dummy|placeholder|your-|example\.com|XXXXX)\b/i, "portfolio should not contain dummy data");
 assert.doesNotMatch(html, /\borbit\b/i, "portfolio copy should not use the word orbit");
+assert.doesNotMatch(html, /Automation outcomes that recruiters can scan in seconds\./, "impact headline should avoid the weaker recruiter-scan phrasing");
 assert.doesNotMatch(html, /\bPython\b|\bJava\b|\.NET Framework|\bLEAD Analyst\b|Facial Recognition System/i, "portfolio should remove requested languages and projects");
 assert.ok(html.includes('id="themeToggle"'), "portfolio should provide a dark/light theme toggle");
 assert.ok(css.includes("text-align: justify"), "portfolio body copy should use justified text alignment");
@@ -88,6 +90,13 @@ assert.match(html, /<div class="automation-core"[^>]*>\s*<span><\/span>\s*<span>
 assert.match(css, /\.hero-full\s*\{[\s\S]*?margin-top:\s*12px;/, "full-width domain note should have a visible line break after the hero intro row");
 assert.match(css, /\.card-impact\s*\{[\s\S]*?right:\s*28%;[\s\S]*?top:\s*0;/, "Impact floating card should sit away from Blue Prism");
 assert.match(css, /\.card-blueprism\s*\{[\s\S]*?right:\s*0;[\s\S]*?top:\s*26%;/, "Blue Prism floating card should sit lower to avoid overlap");
+assert.match(css, /\.hero-copy,\s*[\s\S]*?\.hero-full,\s*[\s\S]*?\.hero-scene\s*\{[\s\S]*?min-width:\s*0;/, "hero grid children should not create horizontal overflow");
+assert.match(css, /@media \(max-width:\s*760px\)\s*\{[\s\S]*?\.hero\s*\{[\s\S]*?grid-template-columns:\s*1fr;[\s\S]*?padding-top:\s*112px;/, "mobile hero should use one compact column");
+assert.match(css, /@media \(max-width:\s*760px\)\s*\{[\s\S]*?h1\s*\{[\s\S]*?font-size:\s*clamp\(32px,\s*10vw,\s*46px\);[\s\S]*?overflow-wrap:\s*anywhere;/, "mobile headline should scale down and wrap safely");
+assert.match(css, /@media \(max-width:\s*760px\)\s*\{[\s\S]*?\.eyebrow\s*\{[\s\S]*?font-size:\s*10px;[\s\S]*?overflow-wrap:\s*anywhere;/, "mobile eyebrow should wrap safely");
+assert.match(css, /@media \(max-width:\s*760px\)\s*\{[\s\S]*?\.hero-scene\s*\{[\s\S]*?min-height:\s*390px;/, "mobile 3D scene should be compact");
+assert.match(css, /@media \(max-width:\s*760px\)\s*\{[\s\S]*?\.hero-action-strip\s*>\s*\*\s*\{[\s\S]*?flex:\s*1\s+1\s+calc\(50%\s*-\s*8px\);/, "mobile action strip should use a compact two-column layout");
+assert.match(css, /@media \(max-width:\s*540px\)\s*\{[\s\S]*?\.hero-action-strip\s*>\s*\*\s*\{[\s\S]*?flex-basis:\s*100%;/, "very small screens should stack action buttons safely");
 
 const buttonLikeLinks = [...html.matchAll(/<a\b[^>]*class="[^"]*\bbtn\b[^"]*"[^>]*href="([^"]+)"/g)].map((match) => match[1]);
 assert.ok(buttonLikeLinks.length >= 4, "there should be at least four clickable button-style links");
