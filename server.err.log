@@ -1,0 +1,196 @@
+127.0.0.1 - - [13/May/2026 15:32:27] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 15:32:27] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 15:32:27] "GET /script.js HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 15:32:27] "GET /assets/rajnish-transparent.png HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 15:32:47] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 15:32:47] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 15:32:47] "GET /assets/rajnish-transparent.png HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 15:32:47] "GET /script.js HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 15:32:47] code 404, message File not found
+127.0.0.1 - - [13/May/2026 15:32:47] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [13/May/2026 15:33:05] "GET /assets/Rajnish_Kumar_Feb_26.pdf HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 15:33:17] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 15:33:17] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 15:33:17] "GET /assets/rajnish-transparent.png HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2026 15:33:17] "GET /script.js HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2026 15:35:03] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 15:35:03] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 15:35:03] "GET /assets/rajnish-transparent.png HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2026 15:35:03] "GET /script.js HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2026 15:35:57] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2026 15:35:57] "GET /assets/rajnish-transparent.png HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2026 15:35:57] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 15:35:57] "GET /script.js HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2026 15:36:42] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2026 15:36:42] "GET /styles.css HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2026 15:36:42] "GET /script.js HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2026 15:36:55] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 15:36:55] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 15:36:55] "GET /script.js HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 15:36:55] "GET /assets/rajnish-transparent.png HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 15:36:55] code 404, message File not found
+127.0.0.1 - - [13/May/2026 15:36:55] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [13/May/2026 15:36:57] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 15:36:57] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 15:36:57] "GET /script.js HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 15:36:57] "GET /assets/rajnish-transparent.png HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 15:36:57] code 404, message File not found
+127.0.0.1 - - [13/May/2026 15:36:57] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [13/May/2026 15:37:33] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2026 15:37:33] "GET /styles.css HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2026 15:37:33] "GET /assets/rajnish-transparent.png HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2026 15:37:33] "GET /script.js HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2026 15:38:17] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2026 15:38:17] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 15:38:17] "GET /script.js HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2026 15:38:18] "GET /assets/Rajnish_Kumar_Feb_26.pdf HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 15:40:42] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 15:52:56] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 15:52:56] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 15:52:56] "GET /assets/rajnish-transparent.png HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 15:52:56] "GET /script.js HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 15:52:56] code 404, message File not found
+127.0.0.1 - - [13/May/2026 15:52:56] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [13/May/2026 15:52:57] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 15:52:57] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 15:52:57] "GET /script.js HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 15:52:57] "GET /assets/rajnish-transparent.png HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 15:52:58] code 404, message File not found
+127.0.0.1 - - [13/May/2026 15:52:58] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [13/May/2026 15:54:59] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 15:54:59] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 15:54:59] "GET /assets/rajnish-transparent.png HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2026 15:54:59] "GET /script.js HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 15:55:04] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 15:55:04] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 15:55:04] "GET /assets/rajnish-transparent.png HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 15:55:04] "GET /script.js HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 15:55:04] code 404, message File not found
+127.0.0.1 - - [13/May/2026 15:55:04] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [13/May/2026 15:55:36] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2026 15:55:36] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 15:55:36] "GET /script.js HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2026 15:56:06] "GET /assets/Rajnish_Kumar_Feb_26.pdf HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 15:56:35] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2026 15:56:35] "GET /styles.css HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2026 15:56:35] "GET /script.js HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2026 15:57:03] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 15:57:03] code 404, message File not found
+127.0.0.1 - - [13/May/2026 15:57:03] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [13/May/2026 15:57:22] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2026 15:57:22] "GET /script.js HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2026 15:57:22] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 16:00:08] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 16:00:20] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2026 16:00:20] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 16:00:20] "GET /assets/rajnish-transparent.png HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2026 16:00:20] "GET /script.js HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2026 16:01:04] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 16:01:04] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 16:01:04] "GET /assets/rajnish-transparent.png HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 16:01:04] "GET /script.js HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 16:01:04] code 404, message File not found
+127.0.0.1 - - [13/May/2026 16:01:04] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [13/May/2026 16:05:27] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 16:05:38] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 16:05:38] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 16:05:38] "GET /script.js HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 16:06:18] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2026 16:06:18] "GET /script.js HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2026 16:06:18] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 16:06:44] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 16:07:29] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 16:07:29] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 16:07:29] "GET /script.js HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 16:07:29] code 404, message File not found
+127.0.0.1 - - [13/May/2026 16:07:29] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [13/May/2026 16:09:46] "GET /styles.css HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2026 16:09:46] code 404, message File not found
+127.0.0.1 - - [13/May/2026 16:09:46] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [13/May/2026 16:18:01] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 16:18:24] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 16:18:24] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 16:18:24] "GET /script.js HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2026 16:18:54] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2026 16:18:54] "GET /styles.css HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2026 16:19:38] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 16:40:59] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 16:40:59] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 16:40:59] "GET /script.js HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 16:40:59] code 404, message File not found
+127.0.0.1 - - [13/May/2026 16:40:59] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [13/May/2026 16:43:54] "GET /assets/Rajnish_Kumar_Feb_26.pdf HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 16:46:14] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 16:46:14] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 16:46:14] "GET /script.js HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 16:46:14] code 404, message File not found
+127.0.0.1 - - [13/May/2026 16:46:14] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [13/May/2026 16:46:16] code 404, message File not found
+127.0.0.1 - - [13/May/2026 16:46:16] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [13/May/2026 16:52:30] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 16:52:51] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 16:53:33] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2026 16:53:34] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 16:53:34] "GET /script.js HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2026 16:53:36] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 16:53:36] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 16:53:36] "GET /script.js HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 16:53:36] code 404, message File not found
+127.0.0.1 - - [13/May/2026 16:53:36] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [13/May/2026 16:54:09] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2026 16:54:09] "GET /styles.css HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2026 16:57:47] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 16:57:47] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 16:57:47] "GET /script.js HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 16:57:47] code 404, message File not found
+127.0.0.1 - - [13/May/2026 16:57:47] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [13/May/2026 16:58:15] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 16:58:24] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2026 16:58:24] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 16:58:43] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 16:58:43] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 16:58:43] "GET /script.js HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 16:58:43] code 404, message File not found
+127.0.0.1 - - [13/May/2026 16:58:43] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [13/May/2026 16:59:01] "GET /styles.css HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2026 16:59:18] "GET /styles.css HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2026 16:59:19] code 404, message File not found
+127.0.0.1 - - [13/May/2026 16:59:19] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [13/May/2026 17:08:08] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 17:08:25] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 17:08:36] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 17:08:36] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 17:08:36] "GET /script.js HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2026 17:09:07] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2026 17:09:07] "GET /styles.css HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2026 17:10:06] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 17:10:06] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 17:10:06] "GET /script.js HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 17:10:06] code 404, message File not found
+127.0.0.1 - - [13/May/2026 17:10:06] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [13/May/2026 17:10:44] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 17:10:44] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 17:10:45] "GET /script.js HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 17:10:45] code 404, message File not found
+127.0.0.1 - - [13/May/2026 17:10:45] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [13/May/2026 17:12:00] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 17:12:13] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 17:12:13] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 17:12:13] "GET /script.js HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 17:15:16] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 17:15:29] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 17:15:29] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 17:15:29] "GET /script.js HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 17:15:29] code 404, message File not found
+127.0.0.1 - - [13/May/2026 17:15:29] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [13/May/2026 17:25:50] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 17:25:50] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 17:25:50] "GET /script.js HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2026 17:25:50] code 404, message File not found
+127.0.0.1 - - [13/May/2026 17:25:50] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [13/May/2026 17:29:07] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 17:29:20] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 17:29:20] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 17:29:20] "GET /script.js HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2026 17:29:20] code 404, message File not found
+127.0.0.1 - - [13/May/2026 17:29:20] "GET /favicon.ico HTTP/1.1" 404 -

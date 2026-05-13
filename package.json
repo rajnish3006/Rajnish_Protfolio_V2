@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "test:portfolio": "node tests/portfolio-content.test.mjs"
+  }
+}
