@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>RPA browser tab icon</title>
+  <rect width="64" height="64" rx="16" fill="#050713"/>
+  <path d="M15 22h13M36 22h13M32 28v8M22 42h8M36 42h8" stroke="#22D3EE" stroke-width="3" stroke-linecap="round"/>
+  <rect x="8" y="15" width="16" height="14" rx="5" fill="#0B1020" stroke="#22D3EE" stroke-width="2"/>
+  <rect x="40" y="15" width="16" height="14" rx="5" fill="#0B1020" stroke="#34D399" stroke-width="2"/>
+  <path d="M32 32 42 42 32 52 22 42Z" fill="#FBBF24"/>
+  <circle cx="32" cy="42" r="4" fill="#050713"/>
+  <text x="32" y="12" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="8" font-weight="700" text-anchor="middle">RPA</text>
+</svg>

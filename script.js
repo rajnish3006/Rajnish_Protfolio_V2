@@ -121,12 +121,15 @@
       });
     });
 
-    document.querySelectorAll(".tilt-card").forEach((card) => {
+    const surfaceSelector = ".metric, .glass-panel, .project-card, .timeline-item, .contact-main, .contact-actions, .certificate-card";
+    document.querySelectorAll(surfaceSelector).forEach((surface) => surface.classList.add("tilt-surface"));
+
+    document.querySelectorAll(".tilt-surface").forEach((card) => {
       card.addEventListener("pointermove", (event) => {
         const rect = card.getBoundingClientRect();
         const x = (event.clientX - rect.left) / rect.width - 0.5;
         const y = (event.clientY - rect.top) / rect.height - 0.5;
-        card.style.transform = `perspective(900px) rotateX(${y * -5}deg) rotateY(${x * 6}deg) translateY(-3px)`;
+        card.style.transform = `perspective(900px) rotateX(${y * -2.2}deg) rotateY(${x * 2.8}deg) translateY(-2px)`;
       });
 
       card.addEventListener("pointerleave", () => {
